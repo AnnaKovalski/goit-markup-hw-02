@@ -26,6 +26,7 @@ body {
 
 .logo {
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -37,8 +38,7 @@ body {
   color: #000000;
 }
 .logo-dark {
-  /*color: #ffffff;*/
-  color: #000000;
+  color: #ffffff;
 }
 .nav-list {
   list-style: none;
@@ -83,9 +83,7 @@ body {
   color: #000000;
   /*color:#FFFFFF*/
 }
-.btn {
-  text-align: center;
-}
+
 .modal-btn {
   font-family: inherit;
   font-weight: 500;
@@ -142,20 +140,19 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
+}
+.footer {
+  background-color: #2f303a;
 }
 .address-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6);*/
-  color: var(--color-text);
+  color: rgba(255, 255, 255, 0.6);
 }
-.address-link:hover,
-.address-link:focus {
-  color: #2196f3;
-}
+
 /* Portfolio*/
 /*main section*/
 .gallery-title {
